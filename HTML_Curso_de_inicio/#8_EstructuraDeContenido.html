@@ -1,0 +1,77 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Titulo del documento</title>
+        <!--La etiqueta link sirve para vincular la hoja de css con la de html-->
+        <!--Tiene que estar dentro de la misma carpeta para que funcione-->
+        <link rel="stylesheet" type="text/css" href="../HTML_Curso_de_inicio/CSS/Modelo_De_Caja5.css" />
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <h1>
+            Titulo del articulo
+        </h1>
+        <!--Recordando que las paginas web se componen de 3 bloques (header = lo de arriba, section = el contedio principal y secundario, pie de la pagina q son las letras pequeñas)-->
+        <header>
+            <!--La  etiqueta div sirve principalmente para la separacion de etiquetas en la parte visual -->
+            <div>
+                <img src="Imagenes_Referencia/sobre.png" width="70" height="70" alt="LogotipoPrincipal">
+            </div>
+            <!--La etiqueta nav sirve para indicar al navegador y buscador que hay un menu-->
+            <!--La etiqueta nav se crea con lista, filas y celdas-->
+            <nav>
+                <ul>
+                    <li><a href="#"></a> Inicio</li>
+                    <li><a href="#"></a> Categoria</li>
+                    <li><a href="#"></a> Categoria 2</li>
+                </ul>
+            </nav>
+        </header>
+        <!--La clase wrapper seria como el contenedor principal del contenido-->
+        <!--La etiqueta section puede ir en cualquier parte de la pagina no hay falla-->
+        <section class="wrapper">
+            <!--La clase main seria para identificar que seria lo principal donde van los articulos-->
+            <sections class="main">
+                <!--El contenido que esta dentro de la etiqueta article va a ser lo que google le va a dar prioridad ya que va el contenido importante para el lector-->
+                <!--El article tambien se puede duplicar multiples veces en la misma etiqueta main -->
+                <Article>
+                    <h2>
+                        Titulo del articulo
+                    </h2>
+                    <div>
+                        <p>
+                            Los párrafos cortos son aquellos párrafos que tienen entre tres y seis líneas. Si bien existen párrafos más extensos, que pueden llegar hasta las veinte líneas, lo recomendable es que un párrafo no tenga más de cuatro o cinco oraciones.
+                        </p>
+                    </div>
+                </Article>
+                <Article>
+                    <h2>
+                        Titulo secundario del articulo
+                    </h2>
+                    <p>
+                        Los párrafos cortos son aquellos párrafos que tienen entre tres y seis líneas. Si bien existen párrafos más extensos, que pueden llegar hasta las veinte líneas, lo recomendable es que un párrafo no tenga más de cuatro o cinco oraciones.
+                    </p>
+                    <a href="#" class="yellow">Link2paMandar</a> 
+                    <br>
+                    <a href="https://www.youtube.com/">LinkdePrueva2</a>
+                </Article>
+            </sections>
+            <!--La etiqueta aside significa afuera es para inficar al buscador que ese contenido es secundario nada importante para el usuario pero de posible interes-->
+            <!--El aside por lo general van cosas como publicidad, imagenes nada del otro mundo ni indispensable-->
+            <aside>
+                <h3>Sidebar</h3>
+                <p>
+                    Los párrafos cortos son aquellos párrafos que tienen entre tres y <a href="#">LinkPaMandar</a> seis líneas. Si bien existen párrafos más extensos, que pueden llegar hasta las veinte líneas, lo recomendable es que un párrafo no tenga más de cuatro o cinco oraciones.
+                </p>
+                <br>
+                <p>
+                    Los párrafos cortos son aquellos párrafos que tienen entre tres y <a href="#" class="yellow">LinkPaMandar</a> seis líneas. Si bien existen párrafos más extensos, que pueden llegar hasta las veinte líneas, lo recomendable es que un párrafo no tenga más de cuatro o cinco oraciones.
+                </p>
+            </aside>
+        </section>
+        <!--La etiqueta footer es mas que nada para el pie de pagina-->
+        <footer>
+            <p> Carlos guadamuz  derechos reservados etc, etc </p>
+        </footer>
+    </body>
+</html>

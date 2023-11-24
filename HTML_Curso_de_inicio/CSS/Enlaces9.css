@@ -1,0 +1,45 @@
+/*Los enlaces tienen 4 estados y se pueden decorar y editar segun los estados que tengan*/
+body{
+    background-color: gray;
+}
+
+a{
+    font-size: 50px;
+    background: rgb(0, 170, 255);
+    color: white;
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 10px, 20px;
+    display: inline-block;
+    /*El primero es la sombra en X y la 2da es la sombra en Y y el 3ro es la transparencia */
+    box-shadow: 5px 8px 5px rgb(0, 146, 219);
+}
+
+a:hover{
+    box-shadow: 8px 15px 5px rgb(1, 132, 197);
+}
+
+a:active{
+    box-shadow: none;
+}
+
+/* a:link{
+    color: green;
+}
+
+a:visited{
+    color: red;
+    text-decoration: line-through;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+a:active{
+    background-color: orange;
+} */
+

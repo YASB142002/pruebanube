@@ -1,0 +1,20 @@
+/*
+-Unidades de medida relativas px (Es estatico), em
+-El % se usa en las cajas
+-El em lo que hace es tomar la medida escala actual del padre original
+*/
+body{
+    background-color: gray;
+    font-size: 16px;
+}
+
+div{
+    font-size: 20px;
+}
+/*
+-El rem funciona en relacion al tamaño escala del padre mas cercano
+*/
+div p{
+    font-size: 1em;
+    background: pink;
+}

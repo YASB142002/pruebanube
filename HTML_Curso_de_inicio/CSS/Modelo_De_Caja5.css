@@ -1,0 +1,14 @@
+/*
+--Este es el modelo que permite establecer el diseño en plan cajas rectangulares
+
+*/
+
+div{
+    width: 500px;
+    height: 120px;
+    background-color: orangered;
+    margin: 20px, 10px;
+    padding: 30px;
+    border: 10px double black;
+    display: inline-block;
+}

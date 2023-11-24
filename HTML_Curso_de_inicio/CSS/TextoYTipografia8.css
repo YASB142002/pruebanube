@@ -1,0 +1,29 @@
+p{
+    color: #55ff00;
+    /*El chiste de la fuente es que va en orden segun el usuario tenga instaladas las fuentes hasta llegar a la que el navegador tenga por defecto*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    /*
+    -Esto seria la anchura de la letra tipo word
+    -Tambien se puede modificar con numeros 
+    */
+    font-weight: bold;
+    /*Este se va a centrar siempre y cuando la etiqueta sea tipo block ya que si es line no se va a mover */
+    text-align: center;
+    /*Este es el tamaño de subrayado en plan la distancia entre lineas */
+    line-height: 50px;
+    /*Pa el subrayado*/
+    text-decoration: none;
+    /*Para hacer mayus*/
+    text-transform: uppercase;
+    /*Este es para el espacio entre cada letra*/
+    letter-spacing: normal;
+    /*Esta es pa el espacio entre cada palabra*/
+    word-spacing: normal;
+    /*Este es para las sombras de la letra*/
+    text-shadow: 1px 1px 1px red;
+    
+}
+body{
+    background-color: gray;
+}

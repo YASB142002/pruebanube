@@ -1,0 +1,48 @@
+div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    /*El posicionamiento float es el que posiciona en fila india los elementos*/
+    float: left;
+    margin: 10px;
+}
+body{
+    background: #bbb;
+}
+/*
+-Relative no hace que se recorran las cosas 
+-Absolute hace que se recorran las cosas
+*/
+
+/* .Caja{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /*Right and bottom casi no se usan por la naturaleza en como se desplazan las paginas web son muy puntuales en la ubicacion
+    right: 0px;
+    bottom: 0px;
+} */
+
+/*
+-Si se encierra una etiqueta dentro de un div como contenedor y luego a ese div se le pone la posicion relative el resto de los elementos va a tomar como referencia la posicion de ese div como inicio en el estilo de posicion absolute y no va a tomar la pagina principal como referencia
+
+*/
+/* .CajaPadre{
+    position: relative;
+    background: black;
+    height: 300px;
+    width: 300px;
+    border: solid;
+    border-width: 10px;
+    border-color: orange;
+    margin: 10px;
+} */
+
+.Caja{
+    /*El position fixed es para hacerlo estatico en la pantalla y que no sea afectado por el scroll*/
+    /*El estatico lo deja que no se pueda mover*/
+    position: static;
+    top: 50px;
+    left: 50px;    
+}

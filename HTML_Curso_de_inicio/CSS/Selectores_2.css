@@ -1,0 +1,42 @@
+body{
+    background: gray;
+}
+h2,h1{
+    color: aqua;
+}
+h3{
+    color: red;
+    font-size: 50px;
+}
+/*
+Esto es para modificar todos las etiquetas en general
+*/
+a{
+    color: green;
+    font-size: 30px;
+}
+/*
+-Este es para ser mas especifico
+-Los div no afectan para la localizacion de las etiquetas
+-Se puede hacer de manera concatenada e infinita
+*/
+p a{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+/*
+-Aca se utilizan las clases 
+-si se le pone una etiqueta por delante puede causar que solo busque las clases dentro de la etiqueta a buscar
+*/
+
+p .yellow{
+    color: orange;
+}
+/*
+Esto seria para modificar a los links que tengan determinado link 
+*/
+a[href="https://www.youtube.com/"]{
+    color: chartreuse;
+    font-size: 20px;
+}

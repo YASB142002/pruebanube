@@ -1,0 +1,5 @@
+h1{
+    color: rgba(69,153,108, .4);
+    /*Por lo general se una el hexagesimal (#000000)*/
+    /*El rgb tiene la ventaja de poder poner transparencia con la funcion rgba()*/
+}

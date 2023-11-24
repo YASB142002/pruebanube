@@ -1,0 +1,19 @@
+img{
+    height: auto;
+    width: 300px;
+    /* margin: auto; */
+    /*Con margin auto se centran las imagenes pero importante cambiar display a block porque las imagenes vienen por defecto en inline-block*/
+    /* display: block; */
+    padding: 20px;
+    border: 2px solid #0000003b;
+    border-radius: 35%;
+}
+
+div{
+    /* background: #ccc; */
+    width: 100%;
+    border-radius: 20px;
+    /*La sombra respeta el borde redondeado del elemento*/
+    /* box-shadow: 5px 5px 0px #000; */
+    
+}
